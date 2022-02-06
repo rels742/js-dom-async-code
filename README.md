@@ -1,7 +1,7 @@
 # Async Code
 All the JavaScript code we've been writing so far has been **synchronous**. As we move in to JavaScript on the front end, we'll start to encounter **asynchronous** (or "async") code. In this workshop we look at the difference between synchronous and asynchronous code.
 
-# Learning Objects
+## Learning Objectives
 - Explain the difference between synchronous and asynchronous code 
 - Understand that console.log can be used to get visibility on the order of code execution
 
@@ -47,7 +47,7 @@ console.log("All done!")
 
 You can open the `example-timeout.html` file in the browser yourself to check. This is what you will see:
 
-```javascript
+```
 Starting
 All done!
 Hello!
