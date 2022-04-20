@@ -57,31 +57,8 @@ This is an example of *asynchronous code*. `setTimeout` is a built-in JavaScript
 
 **The code is run later, once the time has passed.** 
 
-Here's another example using the `fetch` function. `fetch` is a function the browser provides us with to load external resources. We'll look at how to use `fetch` in a dedicated lesson so don't worry about understanding the details of the code, just look where the `console.log` statements are.
 
-```javascript
- console.log("Starting")
-
-fetch("data.txt").then(function (data) {
-  console.log("loaded data!")
-})
-
-console.log("All done!")
-```
-
-If you open the `example-fetch.html` file and look at the Developer Tools, you'll see:
-
-```
-Starting
-All done!
-loaded data!
-```
-
-This is another example of asynchronous code. 
-
-**The code is run later, when the resource has been loaded.**
-
-Here's yet another example using `addEventListener`. `addEventListener` allows us to run code in response to a specific event happening - in this case, when the user clicks the page. Again, don't worry about the specifics of the code, we'll have a dedicated lesson on `addEventListener`, but look where the console.log statements are. Open the `example-event-listener.html` page, click on the page and see what happens in the console log.
+Here's another example using `addEventListener`. `addEventListener` allows us to run code in response to a specific event happening - in this case, when the user clicks the page. Again, don't worry about the specifics of the code, we'll have a dedicated lesson on `addEventListener`, but look where the console.log statements are. Open the `example-event-listener.html` page, click on the page and see what happens in the console log.
 
 ```javascript
 console.log("Starting")
